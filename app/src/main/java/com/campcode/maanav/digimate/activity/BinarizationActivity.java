@@ -3,15 +3,15 @@ package com.campcode.maanav.digimate.activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.AppCompatSeekBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatSeekBar;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 
 import com.campcode.maanav.digimate.R;
 import com.campcode.maanav.digimate.helper.OtsuThresholder;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.googlecode.leptonica.android.GrayQuant;
 import com.googlecode.leptonica.android.Pix;
 

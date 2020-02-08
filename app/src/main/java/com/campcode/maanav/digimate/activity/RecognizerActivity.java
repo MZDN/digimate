@@ -6,9 +6,6 @@ import android.content.res.AssetManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -24,6 +21,7 @@ import android.widget.Toast;
 import com.campcode.maanav.digimate.R;
 import com.campcode.maanav.digimate.helper.ContactWriter;
 import com.campcode.maanav.digimate.helper.PdfGenerator;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.googlecode.tesseract.android.TessBaseAPI;
 
 import java.io.File;
@@ -31,6 +29,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 public class RecognizerActivity extends AppCompatActivity implements View.OnClickListener {
 

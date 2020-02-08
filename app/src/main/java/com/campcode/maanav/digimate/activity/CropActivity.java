@@ -5,14 +5,16 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
+
 import android.view.View;
 
 import com.campcode.maanav.digimate.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
 import java.io.File;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class CropActivity extends AppCompatActivity implements View.OnClickListener {
 

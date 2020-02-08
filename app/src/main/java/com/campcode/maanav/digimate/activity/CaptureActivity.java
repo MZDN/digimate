@@ -7,7 +7,6 @@ import android.graphics.Matrix;
 import android.hardware.Camera;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -22,6 +21,8 @@ import com.campcode.maanav.digimate.helper.CameraPreview;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class CaptureActivity extends AppCompatActivity {
 
